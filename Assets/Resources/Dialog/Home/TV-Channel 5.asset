@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ae847f73bc9240aaa5c554929cb3971, type: 3}
+  m_Name: TV-Channel 5
+  m_EditorClassIdentifier: 
+  lines:
+  - content: "\u2026 live with our reporter in Couchin."
+    talking: 0
+    audio: {fileID: 0}
+  - content: Yes, John. I am currently in Couchin where some scientists claim that
+      the virus comes from.
+    talking: 0
+    audio: {fileID: 0}
+  - content: 'As you know, the COVID-20 rapidly spread across the continent '
+    talking: 0
+    audio: {fileID: 0}
+  - content: "and it is particularly difficult to find what is called the \u201Cpatient
+      zero\u201D."
+    talking: 0
+    audio: {fileID: 0}
+  - content: Thank you, Sabrina. Stay safe. As of today, more than 50,000 deaths
+      related
+    talking: 0
+    audio: {fileID: 0}
+  - content: to the virus have been reported worldwide in more than 20 countries.
+    talking: 0
+    audio: {fileID: 0}
+  - content: "In only two weeks after the first alleged case, it is the fastest and
+      deadliest\u2026"
+    talking: 0
+    audio: {fileID: 0}
+  - content: crrshsssrshhsrsrhshsh...
+    talking: 0
+    audio: {fileID: 0}
+  - content: "What? Wait! Come on, TV, don\u2019t mess with me! I need to know more
+      about this."
+    talking: 1
+    audio: {fileID: 0}
+  options:
+  - content: 'I need to learn more '
+    nextDialog: {fileID: 0}
+    doThis:
+      m_PersistentCalls:
+        m_Calls: []

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ae847f73bc9240aaa5c554929cb3971, type: 3}
+  m_Name: Wall
+  m_EditorClassIdentifier: 
+  lines:
+  - content: "I swear! That\u2019s what he said!"
+    talking: 0
+    audio: {fileID: 0}
+  - content: Why would he hide things from us?
+    talking: 0
+    audio: {fileID: 0}
+  - content: We paid enough for not having to stay in our room the whole day.
+    talking: 0
+    audio: {fileID: 0}
+  - content: "He sounded worried\u2026 Something is not right, Gabe!"
+    talking: 0
+    audio: {fileID: 0}
+  - content: Well, as the captain, he bears the responsibility of the situation.
+    talking: 0
+    audio: {fileID: 0}
+  - content: He should be worried, because they will hear from me at the customer
+      service!
+    talking: 0
+    audio: {fileID: 0}
+  - content: "What if\u2026 what if there was a murder? And the criminal is still
+      on the boat?"
+    talking: 0
+    audio: {fileID: 0}
+  - content: "There are cameras everywhere! If there\u2019s a murderer, they'll know
+      where he is."
+    talking: 0
+    audio: {fileID: 0}
+  - content: "Let\u2019s hope\u2026 I think I will take my shower, now\u2026"
+    talking: 0
+    audio: {fileID: 0}
+  - content: Interesting... There are camera everywhere...
+    talking: 1
+    audio: {fileID: 0}
+  options: []

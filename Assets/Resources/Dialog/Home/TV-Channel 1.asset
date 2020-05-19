@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ae847f73bc9240aaa5c554929cb3971, type: 3}
+  m_Name: TV-Channel 1
+  m_EditorClassIdentifier: 
+  lines:
+  - content: Welcome to Ruby King Cruise, where beauty rhymes with sea.
+    talking: 0
+    audio: {fileID: 0}
+  - content: Embark on the state-of-the-art Ruby King ship for an unforgettable journey.
+    talking: 0
+    audio: {fileID: 0}
+  - content: With its casino, cinema, 5 pools, 4 restaurants, and more, you will
+      never feel so fulfilled.
+    talking: 0
+    audio: {fileID: 0}
+  - content: Book one of our...
+    talking: 0
+    audio: {fileID: 0}
+  - content: "I wonder if anyone ever watched this until the end\u2026"
+    talking: 1
+    audio: {fileID: 0}
+  options:
+  - content: Switch to Channel 2
+    nextDialog: {fileID: 11400000, guid: 3611f9eab20af497ab36dee8312d9dd8, type: 2}
+    doThis:
+      m_PersistentCalls:
+        m_Calls: []
+  - content: Switch to Channel 3
+    nextDialog: {fileID: 11400000, guid: cfa53967deb004d09903e6ad57034c75, type: 2}
+    doThis:
+      m_PersistentCalls:
+        m_Calls: []
+  - content: Switch to Channel 4
+    nextDialog: {fileID: 11400000, guid: c5765c33fc97446d2bd2d6bc71e66897, type: 2}
+    doThis:
+      m_PersistentCalls:
+        m_Calls: []
+  - content: Switch to Channel 5
+    nextDialog: {fileID: 11400000, guid: 5a81db676f44f47f8911aecf532f851a, type: 2}
+    doThis:
+      m_PersistentCalls:
+        m_Calls: []
+  - content: Turn off
+    nextDialog: {fileID: 0}
+    doThis:
+      m_PersistentCalls:
+        m_Calls: []

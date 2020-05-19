@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ae847f73bc9240aaa5c554929cb3971, type: 3}
+  m_Name: TV-Channel 4
+  m_EditorClassIdentifier: 
+  lines:
+  - content: a place, Where the grass is really greener, Warm, wet n' wild,
+    talking: 0
+    audio: {fileID: 0}
+  - content: "There must be something in the water, Sippin' gin and juice, Laying
+      underneath\u2026"
+    talking: 0
+    audio: {fileID: 0}
+  - content: Do pop stars always have to be naked to be successful?
+    talking: 1
+    audio: {fileID: 0}
+  options:
+  - content: Switch to Channel 1
+    nextDialog: {fileID: 11400000, guid: 89299c0167b1a4f00944a9657677d40d, type: 2}
+    doThis:
+      m_PersistentCalls:
+        m_Calls: []
+  - content: Switch to Channel 2
+    nextDialog: {fileID: 11400000, guid: 3611f9eab20af497ab36dee8312d9dd8, type: 2}
+    doThis:
+      m_PersistentCalls:
+        m_Calls: []
+  - content: Switch to Channel 3
+    nextDialog: {fileID: 11400000, guid: cfa53967deb004d09903e6ad57034c75, type: 2}
+    doThis:
+      m_PersistentCalls:
+        m_Calls: []
+  - content: Switch to Channel 5
+    nextDialog: {fileID: 11400000, guid: 5a81db676f44f47f8911aecf532f851a, type: 2}
+    doThis:
+      m_PersistentCalls:
+        m_Calls: []
+  - content: Turn off
+    nextDialog: {fileID: 0}
+    doThis:
+      m_PersistentCalls:
+        m_Calls: []

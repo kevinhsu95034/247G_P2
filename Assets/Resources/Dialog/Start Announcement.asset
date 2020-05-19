@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ae847f73bc9240aaa5c554929cb3971, type: 3}
+  m_Name: Start Announcement
+  m_EditorClassIdentifier: 
+  lines:
+  - content: 'Attention please. This is your captin speaking. '
+    talking: 2
+    audio: {fileID: 0}
+  - content: 'We have an emergency situation on board. '
+    talking: 2
+    audio: {fileID: 0}
+  - content: 'All passengers must return to their rooms immediately. '
+    talking: 2
+    audio: {fileID: 0}
+  - content: 'This is not a drill. I repeat, this is not a drill. '
+    talking: 2
+    audio: {fileID: 0}
+  - content: 'Please return to your rooms immediatly. '
+    talking: 2
+    audio: {fileID: 0}
+  - content: 'We will provide more details as soon as possible. '
+    talking: 2
+    audio: {fileID: 0}
+  - content: Thank you for your attention and cooperation.
+    talking: 2
+    audio: {fileID: 0}
+  - content: Oh, I better head back now. My room number should be 201.
+    talking: 1
+    audio: {fileID: 0}
+  options: []
